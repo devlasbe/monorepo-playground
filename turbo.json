@@ -11,6 +11,10 @@
       "cache": false,
       "persistent": true
     },
+    "start": {
+      "dependsOn": ["^start"],
+      "cache": false
+    },
     "lint": {},
     "clean": {
       "cache": false
